@@ -17,6 +17,7 @@ def djikstra(graph, start):
                 heapq.heappush(priority_queue, (distance, neighbor))
     return distances
 
+
 graph = {
     'A': {'B': 1, 'C': 4},
     'B': {'A': 1, 'C': 2, 'D': 5},
